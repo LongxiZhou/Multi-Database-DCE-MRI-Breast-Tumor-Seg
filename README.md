@@ -1,4 +1,4 @@
-# Multi-Database-DCE-MRI-Breast-Tumor-Seg
+# Multi-Database-DCE-MRI-Breast-Tumor-Segmentation
 
 ## Overview
 This repository provides the method described in the paper:
