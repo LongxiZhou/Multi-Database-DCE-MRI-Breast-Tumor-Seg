@@ -19,8 +19,8 @@ The repository gives a novel deep-learning workflow specifically designed for ha
 - Step 2): Dowload the source codes from github (note in github, "trained_models/" and "DCE-MRI_data/" are empty files).
 - Step 3): Replace the "trained_models/" and "DCE-MRI_data/" with Google Drive downloaded.
 - Step 4): Establish the python environment by 'resources/req.txt'.
-- Step 5): Open '/breast tumor seg.py', change the directory in line 5 and line 8.
-- Step 6): Run '/breast tumor seg.py'.
+- Step 5): Open './breast tumor seg.py', change the directory in line 5 and line 8.
+- Step 6): Run './breast tumor seg.py'.
 
 ## Time and Memory Complexity
 - The workflow requires GPU ram >= 6 GB and CPU ram >= 24 GB.
