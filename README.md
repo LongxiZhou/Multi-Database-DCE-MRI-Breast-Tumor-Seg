@@ -14,17 +14,17 @@ The repository gives a novel deep-learning workflow specifically designed for ha
   <img src="./resources/Fig_one.png" width="1500" height="350">
 </div>
 
-## Run The Trained Models (TODO)
-- Step 1): Download the file: "trained_models/" and "example_data/" from [Google Drive](https://drive.google.com/drive/folders/16ZvZfhqMmuF7wqNPKUOntw2P-Mfx5C4l?usp=sharing).
-- Step 2): Dowload the source codes from github (note in github, "trained_models/" and "example_data/" are empty files).
-- Step 3): Replace the "trained_models/" and "example_data/" with Google Drive downloaded.
+## Run The Trained Models
+- Step 1): Download the file: "trained_models/" and "DCE-MRI_data/" from [Google Drive](https://drive.google.com/drive/folders/1qOUi9gdrsFk3TCtTbcmP4BYBJJAOkcyz?usp=sharing).
+- Step 2): Dowload the source codes from github (note in github, "trained_models/" and "DCE-MRI_data/" are empty files).
+- Step 3): Replace the "trained_models/" and "DCE-MRI_data/" with Google Drive downloaded.
 - Step 4): Establish the python environment by 'resources/req.txt'.
-- Step 5): Open 'interface/dcm_to_enhanced.py', follow the instructions to change global parameters "trained_model_top_dict", "dcm_directory" and "enhance_array_output_directory".
-- Step 6): Run 'interface/dcm_to_enhanced.py'.
+- Step 5): Open '/breast tumor seg.py', change the directory in line 5 and line 8.
+- Step 6): Run '/breast tumor seg.py'.
 
-## Time and Memory Complexity (TODO)
-- DLPE method requires GPU ram >= 6 GB and CPU ram >= 24 GB.
-- Enhancing one chest CT scan needs about two minutes on one V100 GPU. 
+## Time and Memory Complexity
+- The workflow requires GPU ram >= 6 GB and CPU ram >= 24 GB.
+- Segment one scan needs about 15 seconds on one V100 GPU. 
 
 ## Contact
 If you request our training code for DLPE method, please contact Prof. Xin Gao at xin.gao@kaust.edu.sa.
