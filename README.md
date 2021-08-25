@@ -11,7 +11,7 @@ Deep-LungParenchyma-Enhancing (DLPE) is a computer-aided detection (CADe) method
 
 ### Workflow for DLPE Method
 <div align="center">
-  <img src="./resources/FIg_one.png" width="1400" height="400">
+  <img src="./resources/FIg_one.png" width="1500" height="300">
 </div>
 
 ## Run DLPE Method
