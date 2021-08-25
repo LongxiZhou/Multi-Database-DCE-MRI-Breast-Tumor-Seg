@@ -11,7 +11,7 @@ The repository gives a novel deep-learning workflow specifically designed for ha
 
 ### Workflow
 <div align="center">
-  <img src="./resources/FIg_one.png" width="1500" height="400">
+  <img src="./resources/Fig_one.png" width="1500" height="400">
 </div>
 
 ## Run The Trained Models (TODO)
