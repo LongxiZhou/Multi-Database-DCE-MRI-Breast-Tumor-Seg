@@ -14,7 +14,7 @@ The repository gives a novel deep-learning workflow specifically designed for ha
   <img src="./resources/Fig_one.png" width="1500" height="350">
 </div>
 
-## Run The Trained Models
+## Run The Trained 2.5D Models
 - Step 1): Download the file: "trained_models/" and "DCE-MRI_data/" from [Google Drive](https://drive.google.com/drive/folders/1qOUi9gdrsFk3TCtTbcmP4BYBJJAOkcyz?usp=sharing).
 - Step 2): Dowload the source codes from github (note in github, "trained_models/" and "DCE-MRI_data/" are empty files).
 - Step 3): Replace the "trained_models/" and "DCE-MRI_data/" with Google Drive downloaded.
@@ -25,6 +25,9 @@ The repository gives a novel deep-learning workflow specifically designed for ha
 ## Time and Memory Complexity
 - The workflow requires GPU ram >= 6 GB and CPU ram >= 24 GB.
 - Segment one scan needs about 15 seconds on one V100 GPU. 
+
+## Demos for Other Models
+- Go to https://github.com/lzx325/COVID-19-repo/tree/master/03.baselines.demo for source code for 2DUnet, 3DUnet, 3DVnet and MPUnet.
 
 ## Contact
 If you request our training code for DLPE method, please contact Prof. Xin Gao at xin.gao@kaust.edu.sa.
