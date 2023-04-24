@@ -15,7 +15,8 @@ The repository gives a novel deep-learning workflow specifically designed for ha
 </div>
 
 ## Run The Trained 2.5D Models
-- Step 1): Download the file: "trained_models/" and "DCE-MRI_data/" from [Google Drive](https://drive.google.com/drive/folders/1qOUi9gdrsFk3TCtTbcmP4BYBJJAOkcyz?usp=sharing).
+2.5D model performed the best in the breast tumor segmentation.
+- Step 1): Download the file: "trained_models/" and "DCE-MRI_data/" from [Google Drive](https://drive.google.com/drive/folders/1qOUi9gdrsFk3TCtTbcmP4BYBJJAOkcyz?usp=sharing). 
 - Step 2): Dowload the source codes from github (note in github, "trained_models/" and "DCE-MRI_data/" are empty files).
 - Step 3): Replace the "trained_models/" and "DCE-MRI_data/" with Google Drive downloaded.
 - Step 4): Establish the python environment by 'resources/req.txt'.
@@ -27,7 +28,11 @@ The repository gives a novel deep-learning workflow specifically designed for ha
 - Segment one scan needs about 15 seconds on one V100 GPU. 
 
 ## Demos for Other Models
-- Go to https://github.com/lzx325/COVID-19-repo/tree/master/03.baselines.demo for source code for 2DUnet, 3DUnet, 3DVnet and MPUnet.
+You may use other models mentioned in our paper. But they will require more CPU and GPU ram.
+- 2DUnet: https://github.com/lzx325/COVID-19-repo/tree/master/03.baselines.demo/2D%20U-net
+- 3DUnet: https://github.com/lzx325/COVID-19-repo/tree/master/03.baselines.demo/3D%20U-net
+- 3DVnet: https://github.com/lzx325/COVID-19-repo/tree/master/03.baselines.demo/3D%20V-net
+- MPUnet: https://github.com/lzx325/COVID-19-repo/tree/master/03.baselines.demo/MPUnet
 
 ## Contact
 If you request our training code for DLPE method, please contact Prof. Xin Gao at xin.gao@kaust.edu.sa.
