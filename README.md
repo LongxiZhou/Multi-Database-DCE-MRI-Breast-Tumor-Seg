@@ -3,7 +3,7 @@
 ## Overview
 This repository provides the method described in the paper:
 ```
-Longxi Zhou, et al. "A Workflow for Automatic, Accurate and Robust Breast Tumor Segmentation on Multi-Database DCE-MRI"
+Longxi Zhou, et al. "Heart Region Anchoring: a Model-Agnostic Workflow to Improve Segmentation Robustness for Breast Cancer in DCE-MRI"
 ```
 
 ## Description
